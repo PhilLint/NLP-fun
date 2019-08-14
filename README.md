@@ -5,3 +5,6 @@ In this project, I want to introduce you to all kinds of NLP adventures, I have 
 
 ## Translate crawled text data into English
 
+In order to build one, universally applicable dataset to then base models for similar projects, we crawled one particular website, which entails texts in the same domain as our projects. As those were in German, a possibly free translation was sought. As we only rely on statistical patterns and not semantical correctness, Googletranslate would suffice just fine. Then I came across 
+* [googletrans](https://github.com/ssut/py-googletrans) - Python package to allow the access to translation and also language detection. 
+
